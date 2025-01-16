@@ -1,4 +1,4 @@
-package tema1;
+package problema;
 
 abstract class ExceptiaMea extends Exception
 {

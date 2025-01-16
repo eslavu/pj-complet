@@ -1,5 +1,5 @@
-package tema1;
-import tema1.ExceptiaMea.*;
+package problema;
+import problema.ExceptiaMea.*;
 
 import java.time.LocalDate;
 import java.util.*;
