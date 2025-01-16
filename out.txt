@@ -1,4 +1,0 @@
-suma = 27
-medie = 4.5
-valoare minima = 2
-valoare maxima = 8
