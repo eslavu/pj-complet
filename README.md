@@ -1,15 +1,20 @@
-<p/><strong>FIECARE LABORATOR SE AFLĂ ÎN PROPRIUL LUI BRANCH</strong>
-<br/>
-<ul>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab1">lab1 - Utilizarea IDE-ului Intellij IDEA. Operații de intrare-ieșire în Java. Utilizarea sistemului de versionare Git și a platformei GitHub</a></li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab2">lab2 - Tablouri. Şiruri de caractere. Date Time AP</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab3">lab3 - Colecția de obiecte List. Variabile şi metode statice</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab4">lab4 - Moştenire şi polimorfism. Tipul enumerare. Serializarea obiectelor. Generarea documentației</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab5">lab5 - Formatul JSON. Proiecte Maven. JUnit</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab6">lab6 - Interfețe funcționale, expresii Lambda, referințe la metode, Stream API, clasa Optional. Inferența tipului la variabilele locale</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab7">lab7 - Colecțiile de obiecte Set şi Map. Tipul record</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab8">lab8 - Java Database Connectivity (JDBC) şi MySQL</li>
-<li><a>lab9 - Spring Boot. Spring Data JDBC. JPA. Spring Data JPA</li>
-<li><a>lab10 - Proiect web dinamic Spring Boot</li>
-<li><a>lab11 - Dezvoltarea unui proiect Spring Boot care expune un REST API</li>
-</ul>
+<p/><a href="https://github.com/eslavu/pj-complet/tree/lab9/lab9_jdbc">(lab9_jdbc)</a>
+<br/>Să se dezvolte un proiect Spring Boot care utilizând tehnologia Spring Data JDBC realizează operații CRUD asupra unei tabele MySQL care conține date despre mașini. Atât tabela masini cât și baza de date care o conține se vor crea prin program. Tabela mașini se va precompleta prin fișierul data.sql cu datele a 5 mașini.
+<p/>Pentru fiecare mașină se memorează numărul de înmatriculare, marca, anul fabricației, culoarea şi numărul de kilometri. Programul va conține un repository care va furniza acces la date oferind metode care permit:
+<ol>
+<li>Adăugarea unei mașini în BD</li>
+<li>Ștergerea unei mașini indicată prin numărul de înmatriculare.</li>
+<li>Căutarea unei mașini după numărul de înmatriculare.</li>
+<li>Extragerea unei liste care conţine toate mașinile din baza de date.</li>
+<li>Determinarea numărului de mașini din BD care au o anumită marcă, introdusă de la tastatură.</li>
+<li>Determinarea numărului de mașini din BD care au sub 100 000 km.</li>
+<li>Extragera unei liste care conţine maşinile mai noi de 5 ani.</li>
+</ol>
+<p/>În programul principal se vor apela metodele din repository verificând buna funcționare a acestora iar datele se vor afișa în consolă atât cu System.out.println() cât şi cu ajutorul unui Logger.
+<hr/>
+<p/><a href="https://github.com/eslavu/pj-complet/tree/lab9/lab9_jpa">(lab9_jpa)</a>
+<br/>Să se dezvolte un proiect Spring Boot care implementează cerințele de la punctul 1
+utilizând tehnologia JPA.
+<hr/>
+<p/><a href="https://github.com/eslavu/pj-complet/tree/lab9/lab9_springdatajpa">(lab9_springdatajpa)</a>
+<br/>Să se dezvolte un proiect Spring Boot care implementează cerințele de la punctul 1 utilizând tehnologia Spring Data JPA. 
