@@ -11,5 +11,5 @@
 <li><a href="https://github.com/eslavu/pj-complet/tree/lab8">lab8 - Java Database Connectivity (JDBC) şi MySQL</li>
 <li><a href="https://github.com/eslavu/pj-complet/tree/lab9">lab9 - Spring Boot. Spring Data JDBC. JPA. Spring Data JPA</li>
 <li><a href="https://github.com/eslavu/pj-complet/tree/lab10">lab10 - Proiect web dinamic Spring Boot</li>
-<li><a>lab11 - Dezvoltarea unui proiect Spring Boot care expune un REST API</li>
+<li><a href="https://github.com/eslavu/pj-complet/tree/lab11">lab11 - Dezvoltarea unui proiect Spring Boot care expune un REST API</li>
 </ul>
