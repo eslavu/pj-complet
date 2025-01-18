@@ -1,0 +1,11 @@
+package pj.lab11;
+
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
+
+@SpringBootApplication
+public class Lab11Application
+{
+	public static void main(String[] args)
+	{ SpringApplication.run(Lab11Application.class, args); }
+}
