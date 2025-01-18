@@ -1,15 +1,13 @@
-<p/><strong>FIECARE LABORATOR SE AFLĂ ÎN PROPRIUL LUI BRANCH</strong>
-<br/>
-<ul>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab1">lab1 - Utilizarea IDE-ului Intellij IDEA. Operații de intrare-ieșire în Java. Utilizarea sistemului de versionare Git și a platformei GitHub</a></li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab2">lab2 - Tablouri. Şiruri de caractere. Date Time AP</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab3">lab3 - Colecția de obiecte List. Variabile şi metode statice</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab4">lab4 - Moştenire şi polimorfism. Tipul enumerare. Serializarea obiectelor. Generarea documentației</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab5">lab5 - Formatul JSON. Proiecte Maven. JUnit</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab6">lab6 - Interfețe funcționale, expresii Lambda, referințe la metode, Stream API, clasa Optional. Inferența tipului la variabilele locale</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab7">lab7 - Colecțiile de obiecte Set şi Map. Tipul record</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab8">lab8 - Java Database Connectivity (JDBC) şi MySQL</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab9">lab9 - Spring Boot. Spring Data JDBC. JPA. Spring Data JPA</li>
-<li><a href="https://github.com/eslavu/pj-complet/tree/lab10">lab10 - Proiect web dinamic Spring Boot</li>
-<li><a>lab11 - Dezvoltarea unui proiect Spring Boot care expune un REST API</li>
-</ul>
+<p/>Să se realizeze un proiect Spring Boot care expune un REST API cu ajutorul căruia se pot realiza diferite operații asupra unei tabele MySQL care conține informații despre evenimentele culturale care au loc într-un oraș. Operațiile CRUD asupra bazei de date se vor realiza cu ajutorul unui repository Spring Data JPA.
+<p/>Evenimentele culturale pot să fie concerte, piese de teatru, expoziții de pictura, expoziții de sculptură, etc.
+<p/>Pentru fiecare eveniment se retine id-ul, denumirea, locația, data, timpul şi prețul biletului.
+<p/>Atât baza de date MySQL numită bd_evenimente cat şi tabela evenimente se vor crea prin program. Cât timp proiectul este în etapă de dezvoltare, acesta se va configura să recreeze la fiecare rulare tabela evenimente şi să o populeze cu datele a 4 evenimente. Datele evenimentelor se vor introduce în fișierul data.sql. Când dezvoltarea este finalizată, configurările care determină recrearea tabelei şi popularea acesteia cu date vor fi dezactivate.
+<p/>Operațiile expuse de REST API permit:
+<ol>
+<li>Afișarea informațiilor despre toate evenimentele din baza de date</li>
+<li>Afișarea informațiilor despre evenimentele care au loc într-o anumita locație</li>
+<li>Afișarea informațiilor despre evenimentele care au loc într-o data specificată</li>
+<li>Adăugare eveniment</li>
+<li>Actualizare eveniment</li>
+<li>Ștergere eveniment identificat prin id</li>
+</ol>
